@@ -1,0 +1,34 @@
+# IDE
+.vscode/
+.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# Build output
+target/
+build/
+out/
+bin/
+dist/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Node (in case backend gets merged here later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.local
+*.log
